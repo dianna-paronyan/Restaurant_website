@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arvo", serif;
+}
+
+main {
+  background: url("./images/826_0774_22.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+hr {
+  border: 0.5px solid #fff;
+  width: 50px;
+  text-align: center;
+  margin: auto;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #494b2a;
+  text-transform: capitalize;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#menu {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#dropitemsmenu {
+  color: #fff;
+}
+
+#dropitemsmenu:hover {
+  color: #000;
+  background-color: rgba(#fff, #fff, #fff, 0.5);
+}
+#dropitemsmenu:active {
+  background-color: rgba(133, 133, 133, 0.4);
+  color: #fff;
+}
+
+#menubar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#dropitemsbar {
+  color: #fff;
+}
+
+#dropitemsbar:hover {
+  color: #000;
+  background-color: rgba(#fff, #fff, #fff, 0.5);
+}
+#dropitemsbar:active {
+  background-color: rgba(133, 133, 133, 0.5);
+  color: #fff;
+}
+.heading h1 {
+  color: #fff;
+  text-align: center;
+  padding: 30px 0 5px 0;
+  letter-spacing: 1px;
+}
+.heading a {
+  color: #fff;
+}
+.heading a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.food_bar {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.food_bar .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.food_bar .content .img {
+  text-align: center;
+  flex: 1 1 10rem;
+  margin-top: 3rem;
+}
+
+.food_bar .content .img img {
+  height: 20rem;
+  width: 23rem;
+}
+
+.all {
+  position: relative;
+}
+.btnkitchen {
+  position: absolute;
+  right: 0%;
+  top: 55%;
+  transform: translateX(-50%, -50%);
+  transform: translateY(-50%, -50%);
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.btn_ {
+  color: #fff;
+}
+button a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.btnkitchen:hover {
+  text-decoration: none;
+  background-color: rgba(42, 42, 43, 0.7);
+  cursor: pointer;
+}
+
+.news {
+  width: 100%;
+  background-color: rgba(41, 41, 41, 0.8);
+  color: #fff;
+}
+
+.news::placeholder {
+  color: #fff;
+}
+
+span .fab {
+  font-size: 24px;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.socialMedia {
+  color: #fff;
+}
+
+.socialMedia:hover {
+  color: rgb(160, 155, 155);
+}
+
+.map {
+  width: 40%;
+  height: 300px;
+  margin: auto;
+}

@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arvo", serif;
+}
+
+main {
+  background: url("./images/826_0774_22.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 40px 0;
+}
+
+hr {
+  border: 0.5px solid #fff;
+  width: 50px;
+  text-align: center;
+  margin: auto;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #494b2a;
+  text-transform: capitalize;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#menu {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#dropitemsmenu {
+  color: #fff;
+}
+
+#dropitemsmenu:hover {
+  color: #000;
+  background-color: rgba(#fff, #fff, #fff, 0.5);
+}
+#dropitemsmenu:active {
+  background-color: rgba(133, 133, 133, 0.4);
+  color: #fff;
+}
+
+#menubar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#dropitemsbar {
+  color: #fff;
+}
+
+#dropitemsbar:hover {
+  color: #000;
+  background-color: rgba(#fff, #fff, #fff, 0.5);
+}
+#dropitemsbar:active {
+  background-color: rgba(133, 133, 133, 0.5);
+  color: #fff;
+}
+
+.content {
+  width: 60%;
+  margin: auto;
+  /* background-color: #FFE7CD; */
+  border-radius: 20px;
+  padding: 20px;
+  background-image: url("https://media.istockphoto.com/photos/place-setting-at-a-reception-picture-id1161231986?k=20&m=1161231986&s=612x612&w=0&h=L0YTfHLs4OH-ttohGgPUQn_hj7DM8gVjm8Ne3Yz-Jvc=");
+  /* background-image: url('./images/reserved.jpg'); */
+  /* background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F9%2F2022%2F01%2F14%2FReddit-Non-Refundable-FT-BLOG0122.jpg&q=60'); */
+  background-size: cover;
+  /* background-image: url('https://www.rmpos.com/wp-content/uploads/2018/12/Restaurant-Manager-restaurant-reservation-procedure-reserved-table-sign-e1572469413510.jpeg'); */
+}
+.logo {
+  text-align: center;
+}
+
+.heading {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.heading h1 {
+  text-align: center;
+  /* color: rgb(58, 58, 58); */
+  color: rgb(247, 247, 247);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  border: 3px solid rgb(240, 240, 240);
+  width: 43%;
+  margin: 30px auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  color: #fff;
+}
+
+.form-control::placeholder {
+  color: rgb(223, 223, 223);
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid rgb(223, 223, 223);
+  font-size: 1.1vw;
+  color: rgb(233, 233, 233);
+  background-color: transparent;
+}
+
+.btn {
+  background-color: #fed136;
+  border-radius: 2px;
+  font-size: 1.2vw;
+}
+
+.price:hover {
+  background-color: rgb(59, 59, 59);
+}
+
+.news {
+  width: 100%;
+  background-color: rgba(41, 41, 41, 0.8);
+  color: #fff;
+}
+
+.news::placeholder {
+  color: #fff;
+}
+
+span .fab {
+  font-size: 24px;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.socialMedia {
+  color: #fff;
+}
+
+.socialMedia:hover {
+  color: rgb(160, 155, 155);
+}
+
+.map {
+  width: 40%;
+  height: 300px;
+  margin: auto;
+}

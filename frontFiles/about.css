@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arvo", serif;
+}
+
+main {
+  background: url("./images/826_0774_22.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+hr {
+  border: 0.5px solid #fff;
+  width: 40px;
+  text-align: center;
+  margin: auto;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #494b2a;
+  text-transform: capitalize;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#menu {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#dropitemsmenu {
+  color: #fff;
+}
+
+#dropitemsmenu:hover {
+  color: #000;
+  background-color: rgba(#fff, #fff, #fff, 0.5);
+}
+#dropitemsmenu:active {
+  background-color: rgba(133, 133, 133, 0.5);
+  color: #fff;
+}
+
+#menubar {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#dropitemsbar {
+  color: #fff;
+}
+
+#dropitemsbar:hover {
+  color: #000;
+  background-color: rgba(#fff, #fff, #fff, 0.5);
+}
+#dropitemsbar:active {
+  background-color: rgba(133, 133, 133, 0.5);
+  color: #fff;
+}
+.heading {
+  margin-bottom: 30px;
+}
+.heading h1 {
+  color: #fff;
+  text-align: center;
+  padding: 30px 0 5px 0;
+  letter-spacing: 1px;
+}
+.heading a {
+  color: #fff;
+}
+.heading a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  width: 60%;
+  background-color: #fff;
+  border: 1px solid #333;
+  margin: auto;
+  padding: 5px;
+}
+.about {
+  background-color: #b5c5c5;
+  padding: 20px;
+  margin: 10px;
+}
+.text {
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.news {
+  width: 100%;
+  background-color: rgba(41, 41, 41, 0.8);
+  color: #fff;
+}
+
+.news::placeholder {
+  color: #fff;
+}
+
+span .fab {
+  font-size: 24px;
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.socialMedia {
+  color: #fff;
+}
+
+.socialMedia:hover {
+  color: rgb(160, 155, 155);
+}
+
+.map {
+  width: 40%;
+  height: 300px;
+  margin: auto;
+}
