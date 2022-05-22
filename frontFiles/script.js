@@ -55,6 +55,3 @@ window.addEventListener('scroll', ()=>{
   }
 })
 
-arrow.addEventListener('click', ()=>{
-  
-})
