@@ -25,9 +25,10 @@ function initMap() {
   });
 }
 
-const copy = document.querySelectorAll(".copy");
+const copy = document.querySelector(".copy");
 
 const date = new Date().getFullYear();
-copy.forEach((d) => {
-  d.innerHTML = `Copyright &copy; ${date} all right reserved`;
-});
+// copy.forEach((d) => {
+//   d.innerHTML = `Copyright &copy; ${date} all right reserved`;
+// });
+copy.innerHTML = `Copyright &copy; ${date} all right reserved`;

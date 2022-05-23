@@ -57,7 +57,7 @@ app.post("/reservation", async (req, res) => {
       pass: process.env.pass,
     },
     tls: {
-      rejectUnauthorized: false,
+      rejectUnauthorized: true,
     },
   });
 
